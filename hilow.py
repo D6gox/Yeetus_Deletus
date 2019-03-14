@@ -1,3 +1,7 @@
+def print_results(highest, lowest):
+    print("highest:", highest)
+    print("lowest:", lowest)
+
 num1 = int(input("Enter first number: "))
 highnum = num1
 lonum = num1
@@ -21,8 +25,33 @@ if (num5 > highnum):
     highnum = num5
 if (num5 < lonum):
     lonum = num5
+num6 = int(input("Enter sixth number: "))
+if (num6 > highnum):
+    highnum = num6
+if (num6 < lonum):
+    lonum = num6
+num7 = int(input("Enter seventh number: "))
+if (num7 > highnum):
+    highnum = num7
+if (num7 < lonum):
+    lonum = num7
+num8 = int(input("Enter eighth number: "))
+if (num8 > highnum):
+    highnum = num8
+if (num8 < lonum):
+    lonum = num8
+num9 = int(input("Enter ninth number: "))
+if (num9 > highnum):
+    highnum = num9
+if (num9 < lonum):
+    lonum = num9
+num10 = int(input("Enter tenth number: "))
+if (num10 > highnum):
+    highnum = num10
+if (num10 < lonum):
+    lonum = num10
 
-print("highest:", highnum)
-print("lowest:", lonum)
+print_results(highnum, lonum)
+
 
 
